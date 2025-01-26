@@ -1,7 +1,6 @@
 @extends('Layouts.index')
 
 @section('content')
-
 <!-- Success Message with Fade Effect -->
 @if (session('success'))
 <div id="alert-3" class="flex items-center p-4 mb-4 text-green-800 rounded-lg bg-green-50 mx-8 lg:mx-20 animate-fade-in" role="alert">
